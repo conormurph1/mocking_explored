@@ -24,10 +24,11 @@ public class App
         FileReader fr = null;
         try
         {
-            String fileName = "C:\\tmp\\KeyboardHandler.java.txt";
+            String fileName = "C:\\tmp\\App.java.txt";
             File file = new File(fileName);
             fr = new FileReader(file);
             BufferedReader br = new BufferedReader(fr);
+
             String line;
             while((line = br.readLine()) != null)
             {
